@@ -4,7 +4,7 @@
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
+document. addEventListener('DOMContentLoaded', () => {
     const apiUrl = 'https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json';
     const productsContainer = document.getElementById('products-container');
     let currentActiveButton = document.querySelector('.category-button.active');
